@@ -1,20 +1,16 @@
 {
   "name": "spider-net-secure-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bot WhatsApp Spider-Net Secure sur Vercel",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JuniorBot2010/spider-net-secure-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JuniorBot2010/spider-net-secure-bot/issues"
-  },
-  "homepage": "https://github.com/JuniorBot2010/spider-net-secure-bot#readme"
+  "author": "TonNom",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.7",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3"
+  }
 }
